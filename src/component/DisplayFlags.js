@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import "./countries.css"
+import "./DisplayFlags.css";
 function Card({name, image})
 {
 return  <>

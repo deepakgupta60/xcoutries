@@ -6,14 +6,14 @@ const XCountriesSearch = () => {
 const [searchData, setSearchData]=useState([])
 const [searchTerm, setSearchTerm]=useState('');
 const [loading, setLoading]=useState(true)
-const [debounce, setDebounce]=useState(searchTerm);  // initial with search term
+const [debounce, setDebounce]=useState(searchTerm);  
 
 
 
 useEffect(()=>{
   const handler = setTimeout(() => {
       setDebounce(searchTerm)
-  }, 1);
+  },1);
 
   return ()=>{
     clearTimeout(handler)

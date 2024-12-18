@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import Countries from './component/countries';
+import XCountriesSearch from './component/XCountriesSearch';
+// import CounterApp from './component/XCountriesSearch';
+// import CountrySearch from './component/DisplayFlags';
 
 
 
 function App() {
   return (
     <div className="App">
-      <Countries/>
+      {/* <CounterApp/> */}
+      {/* <CountrySearch/> */}
+      <XCountriesSearch/>
     </div>
   );
 }
